@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Bahasa Arab',
   tagline: 'Referensi Belajar Bahasa Arab Online',
-  url: 'https://bahasaarab.com',
+  url: 'https://ndrianggar.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'docusaurus', // Usually your repo name.git 
 
   presets: [
     [

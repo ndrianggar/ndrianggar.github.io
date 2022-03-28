@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.git 
+  organizationName: 'ndrianggar', // Usually your GitHub org/user name.
+  projectName: 'ndrianggar.github.io.git', // Usually your repo name.git 
 
   presets: [
     [
@@ -56,6 +56,8 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+
+          {to:'/bahasaArab', label: 'Bahasa Arab', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -112,6 +114,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      themes: ['@docusaurus/theme-search-algolia'],
+
+      deploymentBranch: 'gh-pages',
+
+
     }),
 };
 
